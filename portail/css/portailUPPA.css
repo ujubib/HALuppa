@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+/* CSS POUR GABARIT TYPE */
+
+
+/**********************************for all**********************************************/
+
+body {
+  background-color: #ffffff;
+  font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: #000000;
+  font-size: 12px;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+
+/* couleur des titres = couleur du rubriquage de base */
+
+h1, h2, h3, h4 {
+  color: #7b7c7e;
+  font-family: Calibri, sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.widget, .encart {
+  border-style: solid;
+  border-color: #7b7c7e;
+  border-width: 1px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.encart-header, .widget-header {
+  background: #7b7c7e;
+  color: white;
+  padding: 8px 14px;
+  /*text-align: center;*/
+  border-radius: 5px 5px 0px 0px;
+  font-family: Calibri, sans-serif;
+  font-size: 1, 9em;
+  line-height: 0.85em;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);*/
+  text-transform: none;
+}
+
+/*titre dans les widget en rouge - inria*/
+
+.widget-content .title {
+  font-family: Calibri;
+  font-weight: bold;
+  text-transform: none;
+  color: #2698D0;
+}
+
+div.grand_saut {
+  height: 25px;
+}
+
+
+/* couleur des liens = couleur du rubriquage de base */
+
+a {
+	font-family: Arial, sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  color: #2698D0;
+  text-decoration: underline;
+}
+
+
+/**********************************navigation*******************************************/
+
+
+/* navigation principale rubriques de base + sous-rubriquage : fond de couleur noire*/
+
+/*.sidebar-nav>ul>li>a, .sidebar-nav>ul>li ul {
+  background: #556268;
+}*/
+
+
+/* navigation principale rubriques de base actives : fond de couleur orange*/
+
+/*.sidebar-nav>ul>li.active>a, .sidebar-nav>ul>li:hover>a, .sidebar-nav>ul>li.active:hover>a {
+  background: #ff9900;
+}*/
+
+
+/* navigation principale rubriques de base + sous-rubriquage : texte de couleur  blanche */
+
+/*.sidebar-nav>ul>li>a, .sidebar-nav>ul>li.active>a, .sidebar-nav>ul li.active:hover>a, .sidebar-nav>ul ul a {
+  color: #fff;
+  text-decoration: none;
+}*/
+
+
+/* navigation sous-rubriquage de base + 2nd sous-rubriquage survole : fond de couleur gris-vert */
+
+/*.sidebar-nav>ul>li ul a:hover, .dropdown-submenu:hover>a {
+  background: #90a4ad;
+}
+
+.nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret, .nav-tabs .active .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}*/
+
+/***************INRIA****************************/
+
+.sidebar-nav {
+  background: #ffffff;
+  padding-bottom: 2px;
+}
+
+.sidebar-nav>ul>li>a, .sidebar-nav>ul>li ul {
+  background: #7b7c7e;
+}
+
+.sidebar-nav>ul>li.active>a, .sidebar-nav>ul>li:hover>a, .sidebar-nav>ul>li.active:hover>a {
+  background: #B2B2B2;
+}
+
+.sidebar-nav>ul>li>a, .sidebar-nav>ul>li.active>a, .sidebar-nav>ul li.active:hover>a, .sidebar-nav>ul ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-nav>ul>li>a {
+  font-weight: bold;
+}
+
+.sidebar-nav>ul>li ul a:hover, .dropdown-submenu:hover>a {
+  background: ;
+}
+
+.nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret, .nav-tabs .active .dropdown-toggle .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.dropdown-menu {
+  font-size: 14px
+}
+
+/**********************************encarts*************************************************/
+
+
+/* encarts informatifs */
+
+.encart-content {
+  background: #ffffff;
+  padding: 4px;
+  text-align: left;
+  border-radius: 0px 0px;
+}
+
+
+/* widgets de HAL */
+
+.widget {
+  background-color: #FFF;
+  vertical-align: top;
+}
+
+/*.widget-content {
+  background-color: #FFF;
+  padding: 4px;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  border-radius: 0px 0px;
+}*/
+
+
+/* dans widget nb de d�p�ts et notices, agit sur les chiffres qui s'affichent */
+
+.label-default {
+  background-color: #9c9d9f;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 2px;
+  border-radius: 4px 4px 4px 4px;
+}
+#sans .label-default {
+	background-color: #ff6666;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+#avec .label-default {
+	background-color: #99cc00;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/*******************restes INRIA***************************/
+
+/*Bouton formulaire*/
+
+.btn-primary {
+  color: #FFF;
+  background-color: #F39126;
+  border-color: #F39126;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background-color: #959595;
+  border-color: #959595;
+}
+
+.label-primary {
+  background-color: #F39126;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  background-color: #F39126;
+  border-color: #F39126;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  background-color: #F39126;
+  border-color: #F39126;
+  color: #FFFFFF;
+}
+
+
+/* opacité des bouton dans la notice*/
+
+.opacity {
+  opacity: 0.5;
+}
+
+
+/* résumé dans une boite rose */
+
+#document .abstract-content {
+  background: none repeat scroll 0 0 #d4e9f7;
+}
+
+
+.footer {
+  background: #9c9d9f;
+}
+
+.img_accueil {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.txt_accueil {
+  text-align: left;
+  margin-left: 170px;
+  margin-top: 40px;
+  margin-right: 25px;
+  color: #000000;
+  font-size: 1.4em;
+  font-family: Calibri;
+}
+
+.logo {
+  background: #ffffff;
+  padding: 10px;
+}
+
+.corps {
+  padding: 20px;
+}
